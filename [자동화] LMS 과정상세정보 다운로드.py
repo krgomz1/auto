@@ -26,3 +26,5 @@ driver.find_element_by_id('btnSubmit').click()
 
 #경고창에 승인하기
 driver.switch_to.alert.accept()
+
+# 잘바뀌는지 체크해보자
