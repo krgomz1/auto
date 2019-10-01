@@ -10,7 +10,7 @@ this_month = int(time.strftime('%m')) - 1  #전월 데이터
 raw_df = pd.read_excel('D:/0. 원단위/★매출자료 접근.xlsx', sheet_name='Sheet1')
 
 # 맵핑 엑셀파일 불러오기
-map_df = pd.read_excel('D:/0. 원단위/`과목-CP사 맵핑-190828.xlsx', sheet_name='mapping Data')
+map_df = pd.read_excel('D:/0. 원단위/`과목-CP사 맵핑-191001.xlsx', sheet_name='mapping Data')
 
 # raw_df 열 삭제
 del_cols = ['정산년월', '학습시작일', '단가', '공급가액', '세액', '튜터비',
