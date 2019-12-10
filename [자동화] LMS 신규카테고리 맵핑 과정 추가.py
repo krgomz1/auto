@@ -13,7 +13,7 @@ driver.get('https://ims.hunet.co.kr/Login/Index?appId=55f6a9f448614a62ba88132da2
 
 #로그인해라
 driver.find_element_by_name('UserName').send_keys('krgomz')
-driver.find_element_by_name('Password').send_keys('1Q2w3e4r5t!')
+driver.find_element_by_name('Password').send_keys('1A2s3d4f5g!')
 driver.find_element_by_id('btnLogon').click()
 
 #업로드창으로 진입
