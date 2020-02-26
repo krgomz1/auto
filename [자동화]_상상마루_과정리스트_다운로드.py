@@ -14,7 +14,7 @@ driver.get('http://hsm.hunet.co.kr/Report/Lecture.aspx')
 
 #로그인해라
 driver.find_element_by_name('txtID').send_keys('krgomz')
-driver.find_element_by_name('txtDbPass').send_keys('5T4r3e2w1q!')
+driver.find_element_by_name('txtDbPass').send_keys('1Q2w3e4r5t!')
 driver.find_element_by_name('ImageButton1').click()
 driver.implicitly_wait(3)
 
@@ -22,7 +22,6 @@ driver.implicitly_wait(3)
 #보고서 사이트에 들어가서 다운로드 클릭해라
 
 driver.get('http://hsm.hunet.co.kr/Report/Lecture.aspx')
-
 
 
 #상상마루 리스트

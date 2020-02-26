@@ -12,7 +12,7 @@ def url_check(site, code):
 
     # 로그인해라
     driver.find_element_by_name('ID').send_keys('krgomz')
-    driver.find_element_by_name('PWD').send_keys('5T4r3e2w1q!')
+    driver.find_element_by_name('PWD').send_keys('1Q2w3e4r5t!')
     driver.find_element_by_id('btnLogin').click()
 
     # 해당 과정포팅 사이트

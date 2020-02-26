@@ -1,13 +1,16 @@
+file_name = "raw_20200213.xlsx"
+
 # 모듈 추가
 import pandas as pd
 import time
 
 # 날짜 변수 추가
 today = time.strftime('%y%m%d')
-this_month = int(time.strftime('%m')) - 1  #전월 데이터
+this_month = 12
+# int(time.strftime('%m')) - 1  #전월 데이터로 만들기
 
 # 매출 엑셀파일 불러오기
-raw_df = pd.read_excel('D:/0. 원단위/★매출자료 접근.xlsx', sheet_name='Sheet1')
+raw_df = pd.read_excel('D:/0. 원단위/매출 RAW/'+file_name, sheet_name='Sheet1')
 
 # 맵핑 엑셀파일 불러오기
 map_df = pd.read_excel('D:/0. 원단위/`과목-CP사 맵핑-191001.xlsx', sheet_name='mapping Data')

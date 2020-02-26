@@ -52,7 +52,7 @@ driver.get('https://ims.hunet.co.kr/Login/Index?appId=55f6a9f448614a62ba88132da2
 
 #로그인해라
 driver.find_element_by_name('UserName').send_keys('krgomz')
-driver.find_element_by_name('Password').send_keys('5T4r3e2w1q!')
+driver.find_element_by_name('Password').send_keys('1A2s3d4f5g!')
 driver.find_element_by_id('btnLogon').click()
 
 #비정형 통계 과정정보 업로드에 들어가서 파일을 다운로드 해라
